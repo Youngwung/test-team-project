@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-pageEncoding="UTF-8" trimDirectiveWhitespaces="true"%> <%@ taglib prefix="c"
-uri="jakarta.tags.core"%>
+pageEncoding="UTF-8" trimDirectiveWhitespaces="true"%> 
+<%@ taglib prefix="c" uri="jakarta.tags.core"%>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -15,10 +15,12 @@ uri="jakarta.tags.core"%>
 		/>
 	</head>
 	<body>
-        <h1>555</h1>
+        <h1>Yeeeeeeeee</h1>
         
 		<ul>
-			<li><a href="">ssssss1</a></li>
+			<c:if test="false">
+				<li><a href="">taglib test</a></li>
+			</c:if>
 			<li><a href="">sssss2</a></li>
 			<li><a href=""></a></li>
 			<li><a href=""></a></li>
