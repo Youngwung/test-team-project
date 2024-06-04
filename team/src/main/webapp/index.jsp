@@ -15,13 +15,18 @@ uri="jakarta.tags.core"%>
 		/>
 	</head>
 	<body>
+		<h1>Yeeeeeeeee</h1>
+
 		<ul>
-			<li><a href=""></a></li>
-			<li><a href=""></a></li>
-			<li><a href=""></a></li>
-			<li><a href=""></a></li>
-			<li><a href=""></a></li>
-			<li><a href=""></a></li>
+			<c:if test="false">
+				<li><a href="">taglib test</a></li>
+			</c:if>
+			<li><a href="/members/김동환.html">1</a></li>
+			<li><a href="/members/김영웅.html">2</a></li>
+			<li><a href="/members/정윤정.html">3</a></li>
+			<li><a href="/members/장동필.html">4</a></li>
+			<li><a href="/members/박성준.html">5</a></li>
+			<li><a href="/members/김현우.html">6</a></li>
 		</ul>
 
 		<script

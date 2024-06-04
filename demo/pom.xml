@@ -7,7 +7,10 @@
   <groupId>team</groupId>
   <artifactId>demo</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>war</packaging>
+  <packaging>pom</packaging>
+  <modules>
+    <module>demo</module>
+  </modules>
 
   <name>demo Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
